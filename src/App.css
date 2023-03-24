@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App h1{
+  font-size: 200%;
+  color: #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.prime{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prime th,td{
+  border-top: 1px solid #ECF0F1;
+  padding: 10px;
+}
+
+.prime td {
+  border-left: 1px solid #ecf0f1;
+  border-right: 1px solid #ecf0f1;
+}
+.prime th {
+  background-color: #4ecdc4;
+}
+.prime tr:nth-of-type(even) td {
+  background-color: #d9f4f2;
+}
+.input{
+  width: 33%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #000;
+  border-radius: 10px;
+  color: rgb(191, 255, 0);
+}
+#button-addon2{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #333;
+  color: rgb(212, 255, 0);
+  background-color: #000000;
+}
